@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4 justify-end">
               <a href="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="https://rpsc.rajasthan.gov.in/Static/Syllabus/7B209EAD-A262-4AE5-8387-0E53FF305A31.pdf" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Syllabus</a>
+              <a href="https://drive.google.com/file/d/1F6KtVSS4OCYkkzFtADTF-kqqTaEpKERg/view?usp=sharing" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Syllabus</a>
               <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Pdf Notes</a>
               <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Make notes</a>
             </div>
