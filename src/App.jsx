@@ -1,5 +1,8 @@
 import React from 'react';
 import Card from './Components/Card';
+import Navbar from './Components/Navbar'
+
+
 
 const App = () => {
   const cardsData = [
@@ -11,6 +14,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-10">
+      <Navbar />
       <h1 className="text-4xl font-bold text-center mb-12 underline">RPSC Programmer Content</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {cardsData.map((card) => (
@@ -20,6 +24,5 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
 

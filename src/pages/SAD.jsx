@@ -1,5 +1,6 @@
 import React from 'react';
-import Table from '../Components/Table'; // Ensure the path is correct
+import Table from '../Components/Table'; 
+import Navbar from '../Components/Navbar';
 
 const SAD = () => {
   const tableData = [
@@ -23,10 +24,13 @@ const SAD = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-10">
+    <Navbar />
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-10">
       <h1 className="text-4xl font-bold text-center mb-8"> SAD Networks Content</h1>
       <div className="w-full max-w-4xl">
         <Table data={tableData} />
       </div>
+    </div>
     </div>
   );
 };

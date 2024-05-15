@@ -1,5 +1,7 @@
 import React from 'react';
 import Table from '../Components/Table'; 
+import Navbar from '../Components/Navbar';
+
 const Computer = () => {
   const tableData = [
     { column1: '1', column2: 'Network Reference Model', linkText: 'Link', link: 'https://www.google.com' },
@@ -28,10 +30,13 @@ const Computer = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-10">
+      <Navbar />
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-10">
       <h1 className="text-4xl font-bold text-center mb-8 underline">Computer Networks Content</h1>
       <div className="w-full max-w-screen-xl">
         <Table data={tableData} />
       </div>
+    </div>
     </div>
   );
 };
