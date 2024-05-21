@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,18 +14,17 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="/">
+              <Link to="/">
                 <img className="h-14 w-14" src="https://thumbs.dreamstime.com/z/vector-illustration-use-as-print-poster-sticker-logo-tattoo-emblem-other-funny-monkey-sunglasses-168555820.jpg" alt="Logo" />
-              </a>
+              </Link>
             </div>
-
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4 justify-end">
-              <a href="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="https://drive.google.com/file/d/1F6KtVSS4OCYkkzFtADTF-kqqTaEpKERg/view?usp=sharing" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Syllabus</a>
-              <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Pdf Notes</a>
-              <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Make notes</a>
+              <Link to="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+              <Link to="/Syllabus" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Syllabus</Link>
+              <Link to="/Pdf_Notes" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Pdf Notes</Link>
+              <Link to="/Notes" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Make notes</Link>
             </div>
           </div>
           <div className="flex md:hidden">
@@ -51,11 +51,11 @@ const Navbar = () => {
       </div>
 
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
-        <div className="px-2 pt-2 pb-3 space-y- sm:px-3">
-          <a href="/" className="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-          <a href="/about" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Syllabus</a>
-          <a href="/services" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pdf Notes</a>
-          <a href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Make Notes</a>
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <Link to="/" className="text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
+          <Link to="/Syllabus" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Syllabus</Link>
+          <Link to="/Pdf_Notes" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pdf Notes</Link>
+          <Link to="/Notes" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Make Notes</Link>
         </div>
       </div>
     </nav>

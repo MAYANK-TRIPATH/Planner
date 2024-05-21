@@ -8,6 +8,9 @@ const Computer = lazy(() => import('./pages/Computer'));
 const DBMS = lazy(() => import('./pages/DBMS'));
 const SAD = lazy(() => import('./pages/SAD'));
 const Java = lazy(() => import('./pages/Java'));
+const Syllabus = lazy(() => import('./pages/Syllabus'));
+const Pdf_Notes = lazy(() => import('./pages/Pdf_Notes'));
+const Notes = lazy(() => import('./pages/Notes'));
 const NotFound = () => <div>404 Not Found</div>;
 
 const rootElement = document.getElementById('root');
@@ -23,6 +26,9 @@ root.render(
           <Route path="/DBMS" element={<DBMS />} />
           <Route path="/SAD" element={<SAD />} />
           <Route path="/Java" element={<Java />} />
+          <Route path="/Syllabus" element={<Syllabus />} /> 
+          <Route path="/Pdf_Notes" element={<Pdf_Notes />} />
+          <Route path="/Notes" element={<Notes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
