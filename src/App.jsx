@@ -13,7 +13,7 @@ const App = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-10">
+    <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center p-10">
       <Navbar />
       <h1 className="text-4xl font-bold text-center mb-12 underline my-3">RPSC Programmer Content</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
