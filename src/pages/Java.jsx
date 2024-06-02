@@ -67,6 +67,11 @@ const Java = () => {
         <Table data={tableData} />
       </div>
     </div>
+    <a href="https://www.youtube.com/playlist?list=PLxfH_bEO5r1fAOSCKBcV2uDeYvZcA7f_x" target="_blank" rel="noopener noreferrer">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Java Playlist
+  </button>
+    </a>
     </div>
   );
 };

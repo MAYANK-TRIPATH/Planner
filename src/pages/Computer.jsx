@@ -25,7 +25,7 @@ const Computer = () => {
     { column1: '19', column2: 'Network security', linkText: 'Link', link: 'https://www.google.com' },
     { column1: '20', column2: 'Multiplexing', linkText: 'Link', link: 'https://www.google.com' },
     { column1: '21', column2: 'High speed LANs', linkText: 'Link', link: 'https://www.google.com' },
-    // Add more rows as needed
+    
   ];
 
   return (
@@ -36,6 +36,14 @@ const Computer = () => {
       <div className="w-full max-w-screen-xl">
         <Table data={tableData} />
       </div>
+    </div>
+    <div>
+    <a href="https://www.youtube.com/playlist?list=PL0ZSFmjQwgqs2ceBdtY1Csfbm5w3zV358" target="_blank" rel="noopener noreferrer">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Computer Networks Playlist
+  </button>
+    </a>
+
     </div>
     </div>
   );
