@@ -32,6 +32,13 @@ const DBMS = () => {
         <Table data={tableData} />
       </div>
     </div>
+    <div>
+    <a href="https://www.youtube.com/playlist?list=PLG9aCp4uE-s0bu-I8fgDXXhVLO4qVROGy" target="_blank" rel="noopener noreferrer">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    DBMS-Playlist
+  </button>
+    </a>
+    </div>
     </div>
   );
 };
