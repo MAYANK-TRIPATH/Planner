@@ -48,7 +48,7 @@ const Computer = () => {
     <hr></hr>
     <div>
     <a href="https://www.youtube.com/playlist?list=PL3eEXnCBViH-hlNCNwdfV7VrEcTquANGa" target="_blank" rel="noopener noreferrer">
-  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">
     Computer Networks Playlist-2
   </button>
     </a>
