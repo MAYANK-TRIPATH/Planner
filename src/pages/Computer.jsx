@@ -40,7 +40,16 @@ const Computer = () => {
     <div>
     <a href="https://www.youtube.com/playlist?list=PL0ZSFmjQwgqs2ceBdtY1Csfbm5w3zV358" target="_blank" rel="noopener noreferrer">
   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    Computer Networks Playlist
+    Computer Networks Playlist-1
+  </button>
+    </a>
+
+    </div>
+    <hr></hr>
+    <div>
+    <a href="https://www.youtube.com/playlist?list=PL3eEXnCBViH-hlNCNwdfV7VrEcTquANGa" target="_blank" rel="noopener noreferrer">
+  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Computer Networks Playlist-2
   </button>
     </a>
 
